@@ -40,6 +40,18 @@ document.getElementById('closeModal').addEventListener('click', closeModalFunc);
 // Submit
 submitBtn.addEventListener('click', () => {
   if (selectedRating !== null) {
+    // Gets existing feedback from localStorage or initialize as empty array
+    const feedbackRatings = JSON.parse(localStorage.getItem('feedbackRatings')) || [];
+
+    // Adds the new rating to the feedbackRatings array
+    feedbackRatings.push(selectedRating);
+
+    // Saves the updated ratings back to localStorage
+    localStorage.setItem('feedbackRatings', JSON.stringify(feedbackRatings));
+    // For debugging: Display stored ratings in the console
+  console.log('Stored Ratings:', JSON.parse(localStorage.getItem('feedbackRatings')));
+
+    // Alerts and closes the modal
     alert(`Thanks for rating us ${selectedRating}/10! 😊`);
     closeModalFunc();
   } else {
