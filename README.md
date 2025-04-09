@@ -34,3 +34,9 @@ Feel free to share your solution on the website or on social media and [tag us](
 
 ![Screenshot from 2025-04-09 10-06-53](https://github.com/user-attachments/assets/6b661e04-2b30-4afb-8a46-ee6ba695bcaa)
 
+**Web Console output**
+
+![Screenshot from 2025-04-09 10-56-34](https://github.com/user-attachments/assets/88f4c8f0-e432-424e-ac5e-4ce3dad6f0c3)
+
+
+
