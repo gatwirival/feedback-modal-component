@@ -28,3 +28,9 @@ In this frontend challenge, you'll learn how to build interactive UI components 
 I hope you'll enjoy building this challenge.
 
 Feel free to share your solution on the website or on social media and [tag us](https://twitter.com/FrontendProHQ).
+**My Output**
+
+![Screenshot from 2025-04-09 10-06-33](https://github.com/user-attachments/assets/df9aa773-3274-47f5-a7a2-c8eb8a100072)
+
+![Screenshot from 2025-04-09 10-06-53](https://github.com/user-attachments/assets/6b661e04-2b30-4afb-8a46-ee6ba695bcaa)
+
