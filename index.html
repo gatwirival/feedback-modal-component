@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Feedback Modal Component - FrontendPro Challenge</title>
+  </head>
+  <body>
+        <!-- Write your HTML here -->
+    <div class="container">
+        <button class="open-modal">Give Feedback </button>
+      </div>
+
+      <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="feedbackModal">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <h2>How likely are you to recommend our product?</h2>
+          <div class="rating">
+            <div class="scale">
+              <!-- Rating injected by JS -->
+            </div>
+            <div class="scale-text">
+              <span>Not likely</span>
+              <span>Extremely likely</span>
+            </div>
+          </div>
+          <div class="modal-buttons">
+            <button id="submitBtn">Submit</button>
+            <button id="cancelBtn">Cancel</button>
+          </div>
+        </div>
+      </div>
+
+    <script src="/src/script.js"></script>
+  </body>
+</html>
